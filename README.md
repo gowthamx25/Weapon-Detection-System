@@ -43,10 +43,10 @@ The trained YOLOv5 model (best_weapon.pt) is not included in this repository due
 
 The repository **excludes the model file** due to GitHub file size limits.
 
-👉 Download the trained YOLOv5 weights here:  
+### 👉 Download the trained YOLOv5 weights here:  
 🔗 https://drive.google.com/file/d/1xUckP056SLF14MkdGqXUWTacxH-FFW9r/view?usp=drive_link
 
-After downloading save the file as::
+### After downloading save the file as::
 
 Weapon-Detection-System/
 
@@ -68,19 +68,17 @@ python -m venv .venv
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-▶️ Run the Application
+### ▶️ Run the Application
 python final_live.py
 
 
 Press Q to exit the live detection window.
 
-📸 Detection Output
+### 📸 Detection Output
 
-Bounding boxes around detected weapons
-
-Class labels (e.g., gun, knife)
-
-Confidence scores
+- Bounding boxes around detected weapons
+- Class labels (e.g., gun, knife)
+- Confidence scores
 
 ### ⚠️ Disclaimer
 
