@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# YOLOv5 source
+yolov5/
+
+# OS
+.DS_Store
+Thumbs.db
