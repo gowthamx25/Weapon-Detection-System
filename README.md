@@ -21,12 +21,19 @@ The system detects weapons such as guns and knives from a live camera feed and c
 ## 📂 Project Structure
 
 Weapon-Detection-System/
+
 │
+
 ├── final_live.py        # Main script for real-time detection
+
 ├── requirements.txt     # Python dependencies
+
 ├── .gitignore           # Ignored files & folders
+
 ├── README.md            # Project documentation
+
 └── weights/
+
     └── best_weapon.pt   # (Not included – download separately)
     
 ## 📦 Model Weights
@@ -34,21 +41,28 @@ The trained YOLOv5 model (best_weapon.pt) is not included in this repository due
 
 ## 🔽 Download Model Weights
 
-👉 [Add your Google Drive / OneDrive / HuggingFace link here]
+The repository **excludes the model file** due to GitHub file size limits.
 
-After downloading:
+👉 Download the trained YOLOv5 weights here:  
+🔗 https://drive.google.com/file/d/1xUckP056SLF14MkdGqXUWTacxH-FFW9r/view?usp=drive_link
+
+After downloading save the file as::
 
 Weapon-Detection-System/
+
 └── weights/
+
           └── best_weapon.pt
 
 ## ⚙️ Installation & Setup
 ### 1️⃣ Clone the Repository
 git clone https://github.com/gowthamx25/Weapon-Detection-System.git
+
 cd Weapon-Detection-System
 
 ### 2️⃣ Create Virtual Environment
 python -m venv .venv
+
 .venv\Scripts\activate   # Windows
 
 ### 3️⃣ Install Dependencies
@@ -82,7 +96,9 @@ It should not be solely relied upon for real-world security decisions without pr
 
 ### 👤 Author
 Gowtham S
+
 AI & Computer Vision Enthusiast
+
 GitHub: https://github.com/gowthamx25
 
 ### ⭐ Support
